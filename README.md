@@ -2,6 +2,8 @@
 
 > This exercise is to build something that represents the DOM tree of a website as a file and folder explorer.
 
+![alt tag](ORIGINAL_ASSIGNMENT/mockup.png)
+
 ## Getting Started
 Clone the repo and install Node.js modules:
 

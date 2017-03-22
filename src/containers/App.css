@@ -1,0 +1,40 @@
+/*
+  BASE
+  ========
+  html is set to 62.5% so that all the REM measurements are based on 10px sizing.
+  So basically 1.5rem = 15px :)
+*/
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  background: #f2f2f2;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+a {
+  color: #3c78dc;
+  text-decoration: none;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}

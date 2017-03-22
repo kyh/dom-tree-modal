@@ -1,0 +1,42 @@
+.sprite {
+  background-image: url('../assets/icon-sprite.png');
+  height: 14px;
+  display: inline-block;
+}
+
+.sprite-folder {
+  width: 14px;
+}
+
+.sprite-private-folder {
+  width: 14px;
+  background-position: -14px 0px;
+}
+
+.sprite-file {
+  width: 12px;
+  background-position: -29px 0px;
+}
+
+.sprite-close {
+  width: 12px;
+  background-position: -43px 0px;
+}
+
+.sprite-expand {
+  width: 9px;
+  background-position: -58px 0px;
+}
+
+.sprite-expand.white {
+  background-position: -86px 0px;
+}
+
+.sprite-hide {
+  width: 9px;
+  background-position: -72px 0px;
+}
+
+.sprite-hide.white {
+  background-position: -100px 0px;
+}

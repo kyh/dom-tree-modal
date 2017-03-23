@@ -71,4 +71,10 @@
   border-radius: 3px;
   background-color: #4285f4;
   border: 2px solid #3c78dc;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #6592f7;
 }
